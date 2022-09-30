@@ -36,8 +36,8 @@ Print the sum of all odd numbers between X and Y.
 <p>12
   
 Para clonar o repositório:
-<p>git clone https://github.com/alvarocgm/gcst1.git
+<p>git clone https://github.com/pds-pucrs/GCS-Trab1.git
  <p> e os seguintes comandos:
-  <p>cd gcst1
+  <p>cd GCS-Trab1
 <p>mvn package
-<p>java -jar target/gs-maven-0.1.0.jar
+<p>java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
