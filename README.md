@@ -4,6 +4,9 @@ Alunos: Álvaro Machado e Pedro Soares
 
 Problema: https://www.beecrowd.com.br/judge/en/problems/view/1099
 
+
+Resumo do programa: O programa pega um 'N' 'inteiro' que é o numero de vezes que o programa vai rodar. Cada vez que o programa roda tem uma linha contendo 2 numeros inteiros X e Y. O resultado do programa é dar o resultado dos valores impares entre esses numeros (X e Y).
+
 Sum of Consecutive Odd Numbers II
 
 
@@ -14,6 +17,7 @@ The first line of input is an integer N that is the number of test cases that fo
 
 Output
 Print the sum of all odd numbers between X and Y.
+
 
 <p>Input Sample	
 <p>7
