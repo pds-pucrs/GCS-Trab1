@@ -61,7 +61,7 @@ Para fazer o programa rodar manualmente:
 
 Para clonar o repositório:
 
-git clone https://github.com/alvarocgm/gcst1.git
+https://github.com/pds-pucrs/GCS-Trab1.git
 
 e os seguintes comandos:
 
