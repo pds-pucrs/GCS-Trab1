@@ -1,18 +1,60 @@
-## Getting Started
+![Deploy badge](https://github.com/alvarocgm/gcst1/actions/workflows/codeql.yml/badge.svg)
+![Deploy badge](https://github.com/alvarocgm/gcst1/actions/workflows/maven.yml/badge.svg)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Trabalho 1 Gerenciamento e Configuração de Software
+Alunos: Álvaro Machado e Pedro Soares
 
-## Folder Structure
+Problema: https://www.beecrowd.com.br/judge/en/problems/view/1099
 
-The workspace contains two folders by default, where:
+Sum of Consecutive Odd Numbers II
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Read an integer N that is the number of test cases. Each test case is a line containing two integer numbers X and Y. Print the sum of all odd values between them, not including X and Y.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Input
+The first line of input is an integer N that is the number of test cases that follow. Each test case is a line containing two integer X and Y.
 
-## Dependency Management
+Output
+Print the sum of all odd numbers between X and Y.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<p>Input Sample	
+<p>7
+<p>4 5
+<p>13 10
+<p>6 4
+<p>3 3
+<p>3 5
+<p>3 4
+<p>3 8
+<p>Output Sample
+<p>0
+<p>11
+<p>5
+<p>0
+<p>0
+<p>0
+<p>12
+  
+Para clonar o repositório com os testes e fazendo o programa rodar automaticamente: (dessa forma o N escolhido como mostrado acima é 7 e segue também os imputs e os resultados que vão ocorrer, para fazer manualmente escolhendo outros valores olhar mais abaixo)
+<p>git clone -b bee --single-branch https://github.com/alvarocgm/gcst1.git
+ <p> e os seguintes comandos:
+   <p>// muda para o diretorio criado
+  <p>cd gcst1
+ 
+// faz os testes também
+<p>mvn package
+  
+// roda o programa
+<p>java -cp target\GCSTrab1Bee-1.0-BeeCrowd.jar T1.MainApp
+  
+<p>
+  ------------
+ <p> (MANUALMENTE)
+<p>Para fazer o programa rodar manualmente:
+<p>Para clonar o repositório:
+<p>git clone https://github.com/alvarocgm/gcst1.git
+ <p> e os seguintes comandos:
+  <p>cd gcst1
+<p>mvn package
+<p>java -jar target/gs-maven-0.1.0.jar
+
