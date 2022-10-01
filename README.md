@@ -48,18 +48,23 @@ Para clonar o repositório com os testes e fazendo o programa rodar automaticame
 <p>java -cp target\GCSTrab1Bee-1.0-BeeCrowd.jar T1.MainApp
   
 <p>
-  ------------
- <p> (MANUALMENTE)
-<p>Para fazer o programa rodar manualmente:
-<p>Para clonar o repositório:
-<p>git clone https://github.com/pds-pucrs/GCS-Trab1.git
- <p> e os seguintes comandos:
-   <p>// Entrando no diretorio
-  <p>cd GCS-Trab1
-    <p> // compilando/fazendo testes e criando o arquivo.jar
-<p>mvn package
-  <p> // executando o programa via o .jar
-<p>java -cp target\my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+  ----------------
+  
+  (MANUALMENTE)
+
+Para fazer o programa rodar manualmente:
+
+Para clonar o repositório:
+
+git clone https://github.com/alvarocgm/gcst1.git
+
+e os seguintes comandos:
+
+cd gcst1
+
+mvn package
+
+java -jar target/gs-maven-0.1.0.jar
  
 <p> Depois disso o primeiro digito na primeira linha a ser digitado vai ser quantas vezes o programa vai rodar.
   Depois de digitar e dar enter no primeiro número, é necessário digitar os 2 numeros inteiros que vão somar todos os impares entre eles, por tantas vezes que foi digitado durante o início do programa.
