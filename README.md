@@ -43,7 +43,7 @@ e os seguintes comandos:
 
 // muda para o diretorio criado
 
-cd gcst1
+cd GCS-Trab1
 
 // faz os testes também
 
@@ -65,7 +65,7 @@ https://github.com/pds-pucrs/GCS-Trab1.git
 
 e os seguintes comandos:
 
-cd gcst1
+cd GCS-Trab1
 
 mvn package
 
