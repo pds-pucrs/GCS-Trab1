@@ -57,4 +57,5 @@ Para clonar o repositório com os testes e fazendo o programa rodar automaticame
   <p>cd gcst1
 <p>mvn package
 <p>java -jar target/gs-maven-0.1.0.jar
-
+<p> Depois disso o primeiro digito na primeira linha a ser digitado vai ser quantas vezes o programa vai rodar.
+  Depois de digitar e dar enter no primeiro número, é necessário digitar os 2 numeros inteiros que vão somar todos os impares entre eles, por tantas vezes que foi digitado durante o início do programa.
