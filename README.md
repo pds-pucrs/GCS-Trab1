@@ -68,4 +68,4 @@ cd GCS-Trab1
 
 mvn package
 
-java -jar target/gs-maven-0.1.0.jar
+java -jar target\gs-maven-0.1.0.jar
