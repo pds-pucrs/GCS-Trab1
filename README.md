@@ -59,9 +59,8 @@ java -cp target\GCSTrab1Bee-1.0-BeeCrowd.jar T1.MainApp
 
 Para fazer o programa rodar manualmente:
 
-Para clonar o repositório:
-
-https://github.com/pds-pucrs/GCS-Trab1.git
+Para clonar o repositório: 
+git clone https://github.com/pds-pucrs/GCS-Trab1.git
 
 e os seguintes comandos:
 
